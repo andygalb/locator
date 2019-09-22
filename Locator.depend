@@ -1,8 +1,16 @@
 # depslib dependency file v1.0
-1568923806 source:/home/andrew/Locator/main.c
+1569048010 source:/home/andrew/Locator/scan.c
+	<errno.h>
+	<netlink/errno.h>
+	<netlink/netlink.h>
+	<netlink/genl/genl.h>
+	<linux/nl80211.h>
+
+1569179612 source:/home/andrew/Locator/main.c
 	<stdio.h>
 	<stdlib.h>
 	<errno.h>
+	"sniff.h"
 	<netlink/genl/genl.h>
 	<netlink/genl/family.h>
 	<netlink/genl/ctrl.h>
@@ -10,7 +18,18 @@
 	<netlink/msg.h>
 	<netlink/attr.h>
 	<netlink/socket.h>
+	<sys/socket.h>
+	"nl80211.h"
 	"main.h"
 
-1568922174 /home/andrew/Locator/main.h
+1568641564 /home/andrew/Locator/nl80211.h
+	<linux/types.h>
+
+1569046220 /home/andrew/Locator/main.h
+
+1569179611 /home/andrew/Locator/sniff.h
+
+1569179519 source:/home/andrew/Locator/sniff.c
+	"sniff.h"
+	<pcap.h>
 
