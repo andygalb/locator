@@ -29,7 +29,10 @@
 
 1569179611 /home/andrew/Locator/sniff.h
 
-1569179519 source:/home/andrew/Locator/sniff.c
+1569179945 source:/home/andrew/Locator/sniff.c
 	"sniff.h"
 	<pcap.h>
+	<stdio.h>
+	<string.h>
+	<arpa/inet.h>
 
